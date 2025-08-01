@@ -24,7 +24,3 @@ This is a Flask-based web application that uses a machine learning model to clas
 - **HTML + CSS** (frontend)
 
 ---
-
-## 📁 Project Structure
-
-
