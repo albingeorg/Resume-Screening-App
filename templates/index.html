@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resume Screening App</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Upload your Resume</h2>
+    <form action="/predict" method="post" enctype="multipart/form-data">
+        <input type="file" name="resume" required><br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
